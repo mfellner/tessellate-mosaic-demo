@@ -2,8 +2,16 @@
   "name": "tessellate-mosaic-demo",
   "version": "1.0.0",
   "description": "Demo of Tessellate and Mosaic.",
-  "main": "index.js",
   "author": "Maximilian Fellner <maximilian.fellner@zalando.de>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "postinstall": "cd tessellate && yarn install",
+    "bundler": "cd tessellate/packages/tessellate-bundler && TESSELLATE_CONF=../../../conf/bundler.yaml ./node_modules/.bin/ts-node src/server.ts",
+    "fragment": "cd tessellate/packages/tessellate-fragment && TESSELLATE_CONF=../../../conf/fragment.yaml ./node_modules/.bin/ts-node src/server.ts",
+    "tailor": "node tailor/server.js"
+  },
+  "dependencies": {
+    "node-tailor": "3.3.0"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "div",
+  "props": null,
+  "children": [
+    {
+      "type": "h1",
+      "props": {
+        "style": {
+          "color": "blue",
+          "fontStyle": "italic",
+          "fontFamily": "sans-serif"
+        }
+      },
+      "children": [
+        "Hello, world!"
+      ]
+    }
+  ]
+}

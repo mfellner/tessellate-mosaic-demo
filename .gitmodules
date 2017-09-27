@@ -1,0 +1,3 @@
+[submodule "tessellate"]
+	path = tessellate
+	url = https://github.com/zalando-incubator/tessellate.git
