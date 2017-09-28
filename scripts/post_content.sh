@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Clean existing bundles
+rm -rf tessellate/packages/tessellate-bundler/bundles
+
 # POST header
 curl -X "POST" "http://localhost:3001/bundles/zalando.de/header" \
      -H "Content-Type: application/json" \
