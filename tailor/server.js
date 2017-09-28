@@ -7,8 +7,11 @@ const filterRequestHeaders = (attributes, request) => {
   return headers;
 };
 
+const requireJSVersion = '2.3.5';
+
 const options = {
   templatesPath: path.resolve(__dirname, '../templates'),
+  amdLoaderUrl: `https://cdnjs.cloudflare.com/ajax/libs/require.js/${requireJSVersion}/require.min.js`,
   filterRequestHeaders
 };
 

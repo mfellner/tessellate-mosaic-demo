@@ -2,8 +2,15 @@
 
 <head>
   <title>Hello Tessellate</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js"></script>
+  <script>
+    // Externalized dependencies not included in each fragment's bundle:
+    requirejs.config({
+      paths: {
+        'react': 'https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min',
+        'react-dom': 'https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min'
+      }
+    });
+  </script>
 </head>
 
 <body>
