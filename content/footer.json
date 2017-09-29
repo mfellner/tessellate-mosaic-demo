@@ -1,18 +1,25 @@
 {
   "type": "div",
-  "props": null,
+  "props": {
+    "style": {
+      "height": "38px",
+      "line-height": "38px"
+    }
+  },
   "children": [
     {
-      "type": "h1",
+      "type": "reactstrap.Container",
       "props": {
         "style": {
-          "color": "blue",
-          "fontStyle": "italic",
-          "fontFamily": "sans-serif"
+          "padding": "0 15px"
         }
       },
       "children": [
-        "Hello, world!"
+        {
+          "type": "p",
+          "props": null,
+          "children": ["2017 Zalando SE"]
+        }
       ]
     }
   ]

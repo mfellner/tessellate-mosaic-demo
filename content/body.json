@@ -1,18 +1,43 @@
 {
-  "type": "div",
-  "props": null,
+  "type": "reactstrap.Container",
+  "props": {
+    "style": {
+      "marginTop": "20px"
+    }
+  },
   "children": [
     {
-      "type": "h1",
-      "props": {
-        "style": {
-          "color": "blue",
-          "fontStyle": "italic",
-          "fontFamily": "sans-serif"
-        }
-      },
+      "type": "reactstrap.Row",
+      "props": null,
       "children": [
-        "Hello, world!"
+        {
+          "type": "reactstrap.Col",
+          "props": null,
+          "children": [
+            {
+              "type": "reactstrap.Card",
+              "props": null,
+              "children": [
+                {
+                  "type": "reactstrap.CardBlock",
+                  "props": null,
+                  "children": [
+                    {
+                      "type": "reactstrap.CardTitle",
+                      "props": null,
+                      "children": ["Hello, card title!"]
+                    },
+                    {
+                      "type": "reactstrap.CardText",
+                      "props": null,
+                      "children": ["This is some nice text."]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

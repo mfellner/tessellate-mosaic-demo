@@ -1,19 +1,14 @@
 {
-  "type": "div",
-  "props": null,
+  "type": "reactstrap.Navbar",
+  "props": {
+    "color": "faded",
+    "light": true
+  },
   "children": [
     {
-      "type": "h1",
-      "props": {
-        "style": {
-          "color": "blue",
-          "fontStyle": "italic",
-          "fontFamily": "sans-serif"
-        }
-      },
-      "children": [
-        "Hello, world!"
-      ]
+      "type": "reactstrap.NavbarBrand",
+      "props": null,
+      "children": ["Hello, Tessellate!"]
     }
   ]
 }

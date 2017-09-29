@@ -12,6 +12,8 @@
     "tailor": "node tailor/server.js"
   },
   "dependencies": {
-    "node-tailor": "3.3.0"
+    "node-tailor": "3.3.0",
+    "react-transition-group": "1.2.0",
+    "reactstrap": "^4.8.0"
   }
 }
