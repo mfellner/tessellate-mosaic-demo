@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Try https://github.com/zalando-incubator/tessellate/tree/next/example instead.
+
 # Tessellate Mosaic Demo
 
 Demo of Tessellate and Mosaic Tailor.
